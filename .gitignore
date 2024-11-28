@@ -1,0 +1,36 @@
+# Node.js (backend et frontend)
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+.pnp.*
+
+# Dossiers de build pour le frontend et le backend
+build/
+dist/
+public/
+
+# TypeScript
+*.tsbuildinfo
+
+# Environnement
+.env
+.env.local
+.env.*.local
+
+# IDEs
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Backend (si tu as des fichiers spécifiques à ignorer)
+back/node_modules/
+back/dist/
+
+# Frontend (si tu as des fichiers spécifiques à ignorer)
+front/node_modules/
+front/dist/
+front/build/
